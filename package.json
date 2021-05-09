@@ -1,0 +1,28 @@
+{
+  "name": "contatos-api",
+  "version": "1.0.0",
+  "description": "build in node js + mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizinfaki/contatos-api.git"
+  },
+  "author": "luizinfaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizinfaki/contatos-api/issues"
+  },
+  "homepage": "https://github.com/luizinfaki/contatos-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7"
+  }
+}
